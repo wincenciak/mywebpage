@@ -1,0 +1,12 @@
+pages:
+  stage: deploy
+  script:
+  - mkdir .public
+  - cp -r docs/* .public
+  - mv .public public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+3.3.3 Save the file as .gitlab-ci.yml (do not change the name)

@@ -1,0 +1,20 @@
+---
+title: "My Academic Webpage"
+author: "Joanna Wincenciak"
+date: "14/11/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I am working at the University of Glasgow's [School of Education] (https://www.gla.ac.uk/schools/education/). 
+
+
+### Things to remember:
+* Help - Markdown Quick References
+
+### Assigments
++ Commit
++ Push
